@@ -1,0 +1,146 @@
+body,html{
+
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    
+}
+
+.header{
+    background-color: grey;
+    display: flex;
+}
+
+.header .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    flex:1;
+}
+
+.footer{
+    background-color: grey;
+    text-align: end;
+}
+
+.header .col img{
+    border: none;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px black;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 82px;
+    letter-spacing: 1px;
+}
+
+ul{
+    font-family: fantasy;
+    font-weight: lighter;
+}
+
+ul li{
+    margin: 5px 0;
+}
+
+h2{
+    text-align: center;
+    padding:5px;
+}
+
+.menu{
+    background-color: rgb(85, 77, 77);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.forma{
+    display: flex;
+    background-color: whitesmoke;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form{
+    background-color: rgb(85, 77, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    padding:10px;
+    border-radius: 20px;
+}
+
+.error{
+    color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.success{
+    color:green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.col2{
+    text-align:left;
+}
+
+table,th,td
+{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+.container{
+    display: flex;
+}
+
+.col60{
+    display: flex;
+    flex: 60%;
+    justify-content: center;
+    box-shadow: 3px 2px 5px black;
+}
+
+.col40{
+    display: flex;
+    flex: 40%;
+    justify-content: center;
+    box-shadow: 3px 2px 5px black;
+}
+
+.container .col40 img{
+    height:100%;
+    width: 100%;
+}
+
+.container .col60 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
